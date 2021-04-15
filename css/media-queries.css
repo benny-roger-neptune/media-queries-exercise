@@ -2,8 +2,14 @@
 /** {*/
 /*    box-sizing: border-box;*/
 /*}*/
+@media screen and (max-width: 768px) {
 
-body {
+    }
+
+
+
+
+    body {
     box-sizing: border-box;
     display: flex;
     font-family: 'Work Sans', sans-serif;
@@ -57,3 +63,6 @@ li {
     width: 100%;
 }
 
+.sub-section {
+    margin-bottom: 5em;
+}
