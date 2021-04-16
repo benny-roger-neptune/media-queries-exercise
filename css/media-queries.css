@@ -3,9 +3,7 @@
 /*    box-sizing: border-box;*/
 /*}*/
 
-
-
-    body {
+body {
     box-sizing: border-box;
     display: flex;
     font-family: 'Work Sans', sans-serif;
@@ -63,8 +61,24 @@ li {
     margin-bottom: 5em;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 500px) {
+    body {
+        box-sizing: border-box;
+        display: flex;
+        font-family: 'Work Sans', sans-serif;
+        flex-direction: row;
+        padding: .5em .5em;
+    }
 
+    .hidden-on-desktop {
+        display: none;
+    }
+
+    li {
+        background: none;
+        border: 2px dimgrey;
+        margin: .5em 0;
+        padding: 1em;
+    }
 }
-
 
